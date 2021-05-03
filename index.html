@@ -8,7 +8,6 @@
     <meta name="author" content="Sebastian Eschweiler">
     <title>Luxury coffee | Welcome</title>
     <link rel="stylesheet" href="./css/style.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> -->
 </head>
 
 <body>
@@ -39,8 +38,8 @@
         <div class="container">
             <h1>Get Our Newsletter</h1>
             <form action="">
-                <input type="email" placeholder="Enter your email address ... ">
-                <button type="submit" class="button_1">Subscribe</button>
+                <input type="email" id="txtEmail" required placeholder="Enter your email address ... ">
+                <button type="submit" class="button_1" onclick="Javascript:checkEmail();">Subscribe</button>
             </form>
         </div>
     </section>
@@ -85,6 +84,7 @@
     <footer>
         <p>Luxury Coffee, Copyright &copy; 2021</p>
     </footer>
+    <script src="./js/validation.js"></script>
 </body>
 
 </html>
